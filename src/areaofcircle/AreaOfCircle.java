@@ -16,12 +16,12 @@ public class AreaOfCircle {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        double r,pi,A;
-        r=15.0;
+        double radius,pi,Area;
+        radius=15.0;
         pi=3.14;
-        A=pi*r*r;
+        Area=pi*radius*radius;
         
-        System.out.println("the area of the circle is "+A+" cm^2");
+        System.out.println("the area of the circle is "+Area+" cm^2");
     }
     
 }
